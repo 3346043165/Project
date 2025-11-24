@@ -1,0 +1,38 @@
+{
+  "base_url": "https://api.example.com",
+  "apis": {
+    "login": {
+      "path": "/auth/login",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "get_user": {
+      "path": "/users/{user_id}",
+      "method": "GET",
+      "headers": {
+        "Authorization": "Bearer {token}"
+      }
+    },
+    "create_hotel_order": {
+      "path": "/hotels/orders",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer {token}"
+      }
+    }
+  },
+  "test_data": {
+    "valid_login": {
+      "username": "test_user",
+      "password": "test123456"
+    },
+    "hotel_search": {
+      "city": "北京",
+      "check_in": "2024-06-01",
+      "check_out": "2024-06-03"
+    }
+  }
+}

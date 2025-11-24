@@ -1,0 +1,84 @@
+# 全局配置
+project:
+  name: "A3mall UI Automation"
+  version: "1.0.0"
+  description: "A3mall系统UI自动化测试"
+
+# 浏览器配置
+browser:
+  name: "chrome"  # chrome, firefox, edge
+  headless: false
+  window_size: "1920x1080"
+  implicit_wait: 10
+  page_load_timeout: 30
+  script_timeout: 30
+
+# 测试环境配置
+environments:
+  dev:
+    base_url: "http://dev.a3mall.com"
+    username: "admin"
+    password: "admin123"
+
+  test:
+    base_url: "http://test.a3mall.com"
+    username: "test_user"
+    password: "test123"
+
+  prod:
+    base_url: "http://a3mall.com"
+    username: ""
+    password: ""
+
+# 当前使用的环境
+current_environment: "test"
+
+# 测试数据配置
+test_data:
+  address:
+    field1: "fsefe"
+    field2: "123456"
+    field3: "123456"
+    field4: "那么扣挖到"
+    field5: "13029862439"
+
+  search:
+    keyword: "音乐耳机"
+    code: "25523"
+
+  product:
+    name: "的爱第哇"
+    code: "89696"
+
+# 日志配置
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "./logs/automation.log"
+  max_size: "10MB"
+  backup_count: 5
+
+# 截图配置
+screenshot:
+  enabled: true
+  on_failure: true
+  on_success: false
+  save_path: "./screenshots/"
+
+# 报告配置
+report:
+  enabled: true
+  format: "html"  # html, xml, json
+  save_path: "./reports/"
+  title: "A3mall自动化测试报告"
+
+# 邮件配置（可选）
+email:
+  enabled: false
+  smtp_server: "3346043165@qq.com"
+  smtp_port: 465
+  sender: "3346043165@qq.com"
+  password: "nfmqstiuaooscjfe"
+  receivers:
+    - "receiver1@example.com"
+    - "receiver2@example.com"

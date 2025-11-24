@@ -1,0 +1,24 @@
+{
+  "login_credentials": {
+    "admin": {"username": "admin", "password": "qwe123123"},
+    "vip_user": {"username": "vip01", "password": "vip123456"},
+    "test_user": {"username": "test01", "password": "test123456"}
+  },
+  "a3mall_orders": {
+    "address_order": {
+      "field1": "fsefe",
+      "field2": "123456",
+      "field3": "123456",
+      "field4": "那么扣挖到",
+      "field5": "13029862439"
+    },
+    "search_order": {
+      "keyword": "音乐耳机",
+      "code": "25523"
+    },
+    "product_order": {
+      "name": "的爱第哇",
+      "code": "89696"
+    }
+  }
+}

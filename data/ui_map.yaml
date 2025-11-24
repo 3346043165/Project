@@ -1,0 +1,77 @@
+# ui_map.yaml
+login_page:
+  title:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div/div/div"
+  username_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div/form/div[1]/div/div/input"
+  password_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div/form/div[2]/div/div/input"
+  login_button:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div/form/div[3]/div/button/span"
+
+
+address_page:  # 新增地址管理页面
+  address_menu:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[1]/ul/li[2]/ul/li[2]"
+  add_field1:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div/input"
+  add_field2:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[2]/div/div/input"
+  add_field3:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[3]/div/div/input"
+  dropdown_field:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[4]/div/div/div/input"
+  dropdown_option:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[2]/div[1]/div[1]/ul/li[2]"
+  add_field4:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[5]/div/div/input"
+  add_field5:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[6]/div/div/input"
+  submit_button:
+    locator_type: "xpath"
+    locator_value: "/html/body/div[1]/div/div[2]/div/div[2]/div[2]/form/div[8]/div/button/span"
+
+
+search_page:  # 新增地区页面
+  shouye_menu:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[1]/ul/li[3]/ul/li[2]"
+  search_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div/input"
+  code_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div/div/input"
+  search_button:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[3]/div/button"
+
+
+product_page:  # 新增商品管理页面
+  shouye_menu:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[1]/ul/li[3]/ul/li[1]"
+  edit_button:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/div/div[3]/div[3]/table/tbody/tr[1]/td[6]/div/button/span"
+  name_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[1]/div/div/input"
+  code_input:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div/div/input"
+  submit_button:
+    locator_type: "xpath"
+    locator_value: "/html/body/div/div/div[2]/div/div[2]/div[2]/form/div[3]/div/button/span"

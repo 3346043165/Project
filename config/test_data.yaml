@@ -1,0 +1,52 @@
+login:
+  url: "http://10.59.9.21/api/user/login"
+  data:
+    username: "admin"
+    password: "8i4De25KlVQVwqTDgTNGqw=="
+  headers:
+    content-type: "application/json"
+
+agent:
+  url: "http://10.59.9.21/api/user/register"
+  data:
+    username: "grefygc"
+    password: "qdQnG+6YvKpCUX0FaazgngF2l0vOPpButSkWdDl8UZE="
+    checkPwd: "qdQnG+6YvKpCUX0FaazgngF2l0vOPpButSkWdDl8UZE="
+    a_id: "南口兑换块个人"
+    dtype: 2
+    phone: "13029862439"
+    deadline: "2025-12-30"
+  headers:
+    content-type: "application/json"
+    token: Testui.token
+
+region:
+  url: "http://10.59.9.21/api/area/add"
+  data:
+    atype: 2
+    name: "辅导报告还改"
+    sort: "324"
+  headers:
+    content-type: "application/json"
+    uid: "1"
+
+list:
+  url: "http://10.59.9.21/api/user/get"
+  data:
+    wheres: ""
+    sorts: "create_time desc"
+    pageIndex: 1
+    pageSize: 10
+  headers:
+    content-type: "application/json"
+    uid: "1"
+update:
+  url: "http://10.59.9.21/api/area/update"
+  data:
+    atype: ""
+    name: "435"
+    sort: "54"
+    pkId: 15598
+  headers:
+    content-type: "application/json"
+    uid: "1"
